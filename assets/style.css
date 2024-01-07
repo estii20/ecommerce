@@ -41,8 +41,33 @@ h3 {
     max-width: 100px;
     font-family: 'Dancing Script',
         sans-serif;
-    color: #565D47;
+    color: #FFD700;
     font-size: 50px;
+}
+
+.rounded-logo {
+    border-radius: 50%;
+    /* Makes the image round */
+    width: 100px;
+    /* Set the width as needed */
+    height: 100px;
+    /* Set the height as needed */
+    /* Optional styles */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Add a shadow for depth */
+}
+
+.gold-text{
+    /* Using a linear gradient for the text color */
+    background: linear-gradient(45deg, #ffd700, #d4af37);
+    -webkit-background-clip: text;
+    /* For Safari/Chrome */
+    background-clip: text;
+    color: transparent;
+    /* Hides the regular text color */
+    
+    /* Optional: Adding a text-shadow for better effect */
+    text-shadow: 1px 1px 3px rgba(212, 175, 55, 0.5);
 }
 
 .full-viewport {
@@ -134,4 +159,15 @@ footer {
 .border {
     border: 2px solid;
     padding: 5px 10px;
+}
+
+/* Products */
+.card {
+    margin-bottom: 20px;
+    /* Adjust margin-bottom as needed */
+}
+
+.add-to-cart-btn {
+    margin: auto;
+    display: block;
 }
